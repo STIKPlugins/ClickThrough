@@ -1,0 +1,21 @@
+# Join our discord - https://discord.gg/YGzA4UxzFB you can find another good plugins there.
+# Permissions
+# "clickThrough.reload" - permission required to use "/clickthrough reload" command
+
+sign:
+  doClickThrough: true
+  # if player is sneaking, do not click through
+  # recommended true, otherwise player can't change sign text
+  ignoreWhenPlayerSneaking: true
+
+itemFrame:
+  doClickThrough: true
+  # if player is sneaking, do not click through
+  # recommended true, otherwise player can't change item in ItemFrame
+  ignoreWhenPlayerSneaking: true
+  # if true, click through only if itemFrame has item
+  requiredItemInFrame: true
+
+# supports MiniMessage
+noPermissionToReload: "<red>✘ <white>You don't have permission to reload Config!"
+configReloaded: "<green>✔ <white>Config reloaded!"

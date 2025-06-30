@@ -1,0 +1,7 @@
+name: ClickThrough
+version: '1.0'
+main: me.stokmenn.clickthrough.ClickThrough
+api-version: '1.21'
+folia-supported: true
+commands:
+  clickthrough:
